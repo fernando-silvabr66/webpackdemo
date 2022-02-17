@@ -2,7 +2,8 @@
   "name": "webpackdemo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js",  
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/fernando-silvabr66/webpackdemo#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
