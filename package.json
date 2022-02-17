@@ -2,10 +2,10 @@
   "name": "webpackdemo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",  
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/fernando-silvabr66/webpackdemo#readme",
   "devDependencies": {
+    "css-loader": "^6.6.0",
+    "csv-loader": "^3.0.3",
     "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "xml-loader": "^1.2.1"
   }
 }
